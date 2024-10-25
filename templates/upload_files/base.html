@@ -1,0 +1,20 @@
+{% include 'upload_files/header.html' %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>file upload</title>
+        <!-- Include jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+
+        <script>
+            $(document).ready(function(){
+                $(".alert").hide(4000);  // Hides elements with class "alert" after 4000 milliseconds
+            });
+        </script>
+    </body>
+</html>
